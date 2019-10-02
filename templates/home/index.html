@@ -1,0 +1,48 @@
+{% extends 'home/base.html' %}
+{% block assetfile %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+<script src="{% static 'js/cara.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+{% endblock assetfile %}
+{% block content %}
+<div id ="navbar"></div>
+<div id="cara"><div><h1 class="head">Dark Beautiful Reviews</h1></div><div class="title"><h3>Travis Scott: The Art of Rage</h3><div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+<div class="row">
+<div class="ellips" id="first"></div>
+<div class="ellips" id="second"></div>
+<div class="ellips" id="third"></div>
+</div>
+</div></div>
+<u><h2 class="head" id="showHead">Shows</h2></u>
+<div id="carousel">
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+<div class="element"></div>
+</div>
+
+<u><h2 class="head" id="reviewHead">Reviews</h2></u>
+<div id="reviews">
+    <div class="review">
+        <div id="alb-cov"></div>
+        <div id="rev">
+        <div id="creds"><h2>Astroworld</h2><h3>Travis Scott</h3></div>
+        <p>Astroworld is the third studio album by American rapper and record producer Travis Scott. It was released on August 3, 2018, by Cactus Jack Records, Epic Records, and Grand Hustle Records.</p></div>
+    </div>
+</div>
+
+<div id="reviews">
+    <div class="review">
+        <div id="alb-cov"></div>
+        <div id="rev">
+        <div id="creds"><h2>Astroworld</h2><h3>Travis Scott</h3></div>
+        <p>Astroworld is the third studio album by American rapper and record producer Travis Scott. It was released on August 3, 2018, by Cactus Jack Records, Epic Records, and Grand Hustle Records.</p></div>
+    </div>
+</div>
+
+{% endblock content %}
