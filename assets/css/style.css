@@ -181,3 +181,21 @@ html,body{
     border-bottom: 2px solid #fa2147;
     
 }
+
+#navbar{
+    display: flex;
+    background-color:black;
+    color:white;
+    position: fixed;
+    z-index:999;
+    width:100%;
+    padding:5px;
+    
+}
+.logo{
+font-family: 'Lobster';
+}
+.items{
+    display: flex;
+    
+}

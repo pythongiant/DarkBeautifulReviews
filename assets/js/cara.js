@@ -4,7 +4,7 @@ document.onreadystatechange=function () {
     var second = document.getElementById("second")
     var third = document.getElementById("third")
     var cara = document.getElementById("cara")
-    
+
     one.onclick = function(){
         cara.style.backgroundImage = "url('/static/img/1j3bmcxtjl18ihinmrhdbhg.jpg')";
     }
@@ -14,6 +14,5 @@ document.onreadystatechange=function () {
     third.onclick = function(){
         cara.style.backgroundImage = "url('/static/img/test3.jpeg')";
     }   
-
-    
+     
 }
