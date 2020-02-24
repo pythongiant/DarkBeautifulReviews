@@ -15,7 +15,7 @@ html,body{
 }
 #cara{
     width:100%;
-    height: 100%;
+    height: 70%;
     color:white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,13 +71,18 @@ html,body{
     padding-right:0%;
     flex-direction: column;
 }
+#sub-reviews{
+    display: flex;
+    flex-direction:row;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+}
 #reviewHead,#showHead{
     text-align: center;
 
 }
-.head:hover{
-    color:#fa2147;
-}
+
 .review{
     display: flex;
     flex-direction: row;
@@ -89,7 +94,14 @@ html,body{
     height:20vw;
     width:20vw;
     margin:5px;
-    
+    border-radius: 10px;
+ 
+    background-color:grey;
+}
+ .small{
+    height:15vw;
+    width:15vw;
+    margin:5px;
     border-radius: 10px;
  
     background-color:grey;
@@ -100,24 +112,24 @@ html,body{
     width:100%;
     text-align: center;
 }
+#row div{
+    text-align: center;
+}
 .element{
     display:inline-block;
     margin:5px;
     width:20vw;
     height:40vh;
     transition: all .2s ease-in-out;
-    border-radius:5px;
+    border-radius:8px;
     background-color: gray;
 }
 #rev{
     width:50%;
     padding:30px;
 }
-#rev h3,h2,p{
+#rev h3, #rev h2, #rev p{
     padding:5px;
-}
-#rev h3:hover,#rev h2:hover,#rev p:hover{
-    color:#fa2147;
 }
 .element #content{
     width:100%;
@@ -184,12 +196,12 @@ html,body{
 
 #navbar{
     display: flex;
-    background-color:black;
+    background-color:#212121;
     color:white;
     position: fixed;
-    z-index:999;
     width:100%;
-    padding:5px;
+    padding:20px;
+
     
 }
 .logo{
@@ -198,4 +210,42 @@ font-family: 'Lobster';
 .items{
     display: flex;
     
+}
+#newsSection{
+    padding:50px;
+    display: flex;
+    background-color: #eee;
+    flex-direction: column;
+}
+.news-section{
+    display: flex;
+    
+    flex-direction: row;
+}
+#newsSection .headLine{
+    display: flex;
+    flex-direction: row;
+    
+}
+#headline-img{
+    background-image: url("/static/img/test3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:40%;
+    border-radius: 5px;
+    height: 35vh;
+    margin:10px;
+}
+.headLine{
+    margin:30px;
+}
+.headline-report{
+    margin-top:40px;
+    width:40%;
+}
+#row{
+    widows: 100%;
+    justify-content: center;
+    display: flex;
 }

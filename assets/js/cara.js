@@ -16,3 +16,13 @@ document.onreadystatechange=function () {
     }   
      
 }
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  console.log(document.body.scrollTop)
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-500px";
+  }
+}
